@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+    <title>Projecten - Maarten Hoogeboom</title>
+    <meta name="description" content="Maarten Hoogeboom's portfolio projects">
+    <meta name="keywords" content="Maarten Hoogeboom, portfolio, projects">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="/"><img src="images/Maarten Hoogeboom.svg" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="CV.html">CV</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="Contact.html">Contact</a>
+        <p class="menu cta">Menu</p>
+    </header>
+
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <li><a href="index.html">Over mij</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <a href="Contact.html">Contact</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="mobile.js"></script>
+
+
+    <!-- About Me -->
+    <section id="about" class="section section-1">
+        <div class="container has-text-centered">
+            <img id="pf" class="container has-text-centered" src="/images/pf.png">
+        </div>
+         <div class="container"></br>
+            <p class="intro">Lorem Khaled Ipsum is a major key to success. To succeed you must believe. When you believe, you will succeed. Mogul talk. Find peace, life is like a water fall, you’ve gotta flow. Lion! Fan luv. Eliptical talk.</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section  id="projects" class="section section-2">
+        <div class="container">
+            <div class="has-text-centered">
+                <h3 class="title is-3">Projects</h3>
+            </div>
+            <!-- Control buttons -->
+            <div id="myBtnContainer2", class = "btnclass">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('onderzoek')"> Onderzoek</button>
+                <button class="btn" onclick="filterSelection('data')"> Data Analyse</button>
+                <button class="btn" onclick="filterSelection('Visueel')"> Visualisatie</button>
+                <button class="btn" onclick="filterSelection('hobby')"> Hobby</button>
+            </div>
+
+
+                <div class="container_project">
+                    <div class="filterDiv data Visueel">
+                    <h3>Beweegrichtlijn</h3>
+                    <a href="project1.html">
+                        <img src="images/project1.jpg" alt="Project 1">
+                    </a>
+                    <p>Project 1 is a website that showcases a new design.</p>
+                    </div>
+                    <div class="filterDiv hobby">
+                    <h3>Project 2</h3>
+                    <a href="project2.html">
+                        <img src="project2.jpg" alt="Project 2">
+                    </a>
+                    <p>Project 1 is a website that showcases a new design.</p>
+                    </div>
+
+                    <div class="filterDiv onderzoek">
+                    <h3>Project 3</h3>
+                    <a href="project3.html">
+                        <img src="project3.jpg" alt="Project 2">
+                    </a>
+                    <p>Project 1 is a website that showcases a new design.</p>
+                    </div>
+
+                </div>				
+
+        </div>
+    </section>
+
+        
+		<!-- Contact -->
+		<section  id="contacts" class="section section-3">
+            <div id="contact" class="container has-text-centered">
+                <h1>Contact</h1>
+                <p>U kan mij bereiken via</p>
+                <ul>
+                    <li>Email: maarten.a.hoogeboom@gmail.com</li>
+                </ul>
+            </div>
+		</section>
+
+
+
+
+    <script type="text/javascript" src="PF.js"></script>
+    
+      <script type="text/javascript" src="Filter.js"></script>
+</body>
+</html>
